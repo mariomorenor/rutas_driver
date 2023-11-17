@@ -1,0 +1,7 @@
+{
+  "name": "rutas_driver",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
