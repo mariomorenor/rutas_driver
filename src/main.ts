@@ -23,8 +23,14 @@ import '@ionic/vue/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+// Pinia
+import { createPinia } from 'pinia'
+const pinia = createPinia()
+
+
 const app = createApp(App)
   .use(IonicVue)
+  .use(pinia)
   .use(router);
   
 router.isReady().then(() => {
